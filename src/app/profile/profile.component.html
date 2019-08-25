@@ -4,12 +4,39 @@
 
 <div class="container">
     <div class="form-center">
-        <form #userloging ngForm>
+        <form #usersearch="ngForm" (ngSubmit)="onClickSubmit(usersearch.value)">
             <div class="form-group">
                 <input class="form-control" type="text" name="username" placeholder="Search user" ngModel>
             </div>
-            <input class="btn btn-info" type="submit" value="submit">
+            <input class="btn btn-info" type="submit" value="Search">
         </form>
     </div>
-    <img src="{{git_profiles.avatar_url}}" alt="">
+    <div class="row">
+        <div class="col-md-4">
+            <img class="rounded" src="{{git_profiles.avatar_url}}" alt="" width="300px" height="300px">
+        </div>
+        <div class="col-md-4">
+            <ul class="list-group">
+                <li class="list-group-item">Number of public repos
+                    <span class="badge badge-secondary">{{git_profiles.public_repos}}</span>
+                </li>
+                <li class="list-group-item"> <span class="badge badge-secondary">{{git_profiles.followers}}</span>Followers</li>
+                <li class="list-group-item">Following <span class="badge badge-secondary"> {{git_profiles.following}}</span></li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <div class="list-group">
+                <button type="button" class="list-group-item list-group-item-action active">
+                          <a href="/">{{git_profiles.name}}</a>
+                        </button>
+                <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
+                <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
+                <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
+                <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at eros</button>
+            </div>
+        </div>
+    </div>
+
 </div>

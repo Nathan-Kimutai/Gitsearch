@@ -10,12 +10,14 @@ export class ProfileComponent implements OnInit {
 
   public git_profiles;
 
+  public usernametosearch;
+
   constructor(private profileService:ProfileService) { }
+
 
   //this.profileService.GetprofileInfo()
   ngOnInit() {
-    this.profileService.getProfileInfo().subscribe(data => this.git_profiles = data);
-    console.log(this.git_profiles);
+    this.profileService.getProfileInfo().subscribe(res => this.git_profiles = res);
 
   }
 
