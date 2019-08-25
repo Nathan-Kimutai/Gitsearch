@@ -13,7 +13,7 @@ export class ProfileService {
 
   constructor(private http:HttpClient) {
     console.log('Service is now ready');
-    this.username='Nathan-Kimutai';
+    this.username='geohot';
    }
 
    getProfileInfo(){
