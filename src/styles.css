@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
+a {
+    color: white;
+    font-family: "Merriweather Sans" sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #fff;
+    font-size: 2.5rem;
+    text-decoration: none;
+}

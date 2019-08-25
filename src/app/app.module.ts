@@ -16,7 +16,7 @@ import { ProfileService } from './profile.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [ProfileService],
   bootstrap: [AppComponent]

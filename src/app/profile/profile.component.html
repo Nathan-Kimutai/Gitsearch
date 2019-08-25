@@ -1,3 +1,15 @@
+<section id="background">
+
+</section>
+
 <div class="container">
-    {{git_profiles[1]}}
+    <div class="form-center">
+        <form #userloging ngForm>
+            <div class="form-group">
+                <input class="form-control" type="text" name="username" placeholder="Search user" ngModel>
+            </div>
+            <input class="btn btn-info" type="submit" value="submit">
+        </form>
+    </div>
+    <img src="{{git_profiles.avatar_url}}" alt="">
 </div>
