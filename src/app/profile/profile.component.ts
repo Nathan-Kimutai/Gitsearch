@@ -14,6 +14,10 @@ export class ProfileComponent implements OnInit {
 
   constructor(private profileService:ProfileService) { }
 
+  onClickSubmit(data){
+    this.usernametosearch=data.username;
+    alert("Search :" + this.usernametosearch)
+  }
 
   //this.profileService.GetprofileInfo()
   ngOnInit() {
