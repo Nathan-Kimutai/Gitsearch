@@ -8,6 +8,10 @@ import {ProfileService} from '../profile.service';
 })
 export class ProfileComponent implements OnInit {
 
+  private username:string;
+  private clientid='58efe2f056df6787f532';
+  private clientsecret='255fdd0f9d77046d8acdb1b891bb3217875ae240';
+
   public git_profiles;
 
   public usernametosearch;
@@ -16,12 +20,12 @@ export class ProfileComponent implements OnInit {
 
   onClickSubmit(data){
     this.usernametosearch=data.username;
-    alert("Search :" + this.usernametosearch)
+    this.profileService.getProfileInfo(this.usernametosearch).subscribe(res => this.git_profiles = res);
   }
 
   //this.profileService.GetprofileInfo()
   ngOnInit() {
-    this.profileService.getProfileInfo().subscribe(res => this.git_profiles = res);
+    this.profileService.getProfileInfo(this.usernametosearch).subscribe(res => this.git_profiles = res);
 
   }
 

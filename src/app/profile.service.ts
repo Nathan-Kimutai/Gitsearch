@@ -8,15 +8,13 @@ import {HttpClient } from '@angular/common/http';
 export class ProfileService {
 
   private username:string;
-  private clientid='58efe2f056df6787f532';
-  private clientsecret='255fdd0f9d77046d8acdb1b891bb3217875ae240';
+  private token='10fe6b2c2d6a2fdda5d5cdba7093b261dbba73b2';
 
   constructor(private http:HttpClient) {
     console.log('Service is now ready');
-    this.username='geohot';
+    this.username="reivhax";
    }
-
-   getProfileInfo(){
-     return this.http.get('https://api.github.com/users/'+ this.username + "?client_id" + this.clientid + "&client_secret"+ this.clientsecret )
+   getProfileInfo(username: string = this.username){
+     return this.http.get('https://api.github.com/users/'+ username + "?access_token=" + this.token)
    }
 }
