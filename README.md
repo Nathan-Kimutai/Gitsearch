@@ -60,7 +60,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 
 ## Technologies
-In the following app we used the following h
+In the following app we used the following technologie
 * Angular
 * Typscript
 * Javascript
