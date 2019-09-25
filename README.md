@@ -1,6 +1,11 @@
 # Gitsearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+GitSearch is an app that searches for peoples usernames and repositories on github
+It uses HttpService as it service and the github api
+
+## Author
+[Nathan Kimutai](https://github.com/Nathan-Kimutai)
+
 
 ## Development server
 
@@ -25,12 +30,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
 # Organisational API
 
 Organisationaal api is an application programming interface that allows you to add and retrieve employees
 
-## Author
-[Nathan Kimutai](https://github.com/Nathan-Kimutai)
+
+
+
+
+
 
 ## Getting started
 You can use the editor of your choice but for this case I used [Idea IntelliJ](https://www.jetbrains.com/idea/download/)
