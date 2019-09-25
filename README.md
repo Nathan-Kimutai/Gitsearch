@@ -13,10 +13,16 @@ You can use the editor of your choice but for this case I used [Visual Studio Co
 
 If you don't have npm installed yet you can install by doing the following
 ```bash
-sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
-sudo apt-get install oracle-java8-installer
+sudo apt install npm
 ```
+
+Check the npm version 
+```bash
+nmp -v
+```
+
+Then you have to install angular CLI by doing the following
 We use gradle as our dependency manager as it is scripted unlike maven so to install gradle, do the following:
 ```bash
 sudo apt install gradle
