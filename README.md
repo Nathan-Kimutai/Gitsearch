@@ -31,26 +31,7 @@ npm install -g @angular/cli
 Check the version
 ```bash
 ng --version
-``
-We use gradle as our dependency manager as it is scripted unlike maven so to install gradle, do the following:
-```bash
-sudo apt install gradle
 ```
-To get started with the wildlife tracker you need to do the following :
-```bash
-mkdir myprojects
-cd myprojects
-git clone https://github.com/Nathan-Kimutai/organapi.git
-```
-Make sure you recreate the database on your local machine. To do that execute the following schema:
-It might or might not work so try
-```$xslt
-CREATE DATABASE organisational;
-CREATE TABLE department(id serial PRIMARY KEY,name VARCHAR);
-CREATE TABLE employees(id serial PRIMARY KEY,name VARCHAR,department VARCHAR);
-CRATE TABLE employees_deparment(id serial PRIMARY KEY,dept_id integer,emp_id integer);
-```
-
 
 ## Development server
 
