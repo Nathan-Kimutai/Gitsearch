@@ -23,6 +23,15 @@ nmp -v
 ```
 
 Then you have to install angular CLI by doing the following
+
+```bash
+npm install -g @angular/cli
+```
+
+Check the version
+```bash
+ng --version
+``
 We use gradle as our dependency manager as it is scripted unlike maven so to install gradle, do the following:
 ```bash
 sudo apt install gradle
