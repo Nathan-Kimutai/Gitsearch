@@ -52,7 +52,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test` to execute the unit tests
 
 ## Running end-to-end tests
 
@@ -67,6 +67,10 @@ In the following app we used the following technologies
 
 ## Contributions
 You can contribute to this project by making a pull request
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## About me
 `Nathan Kimutai` Java and Python programmer
