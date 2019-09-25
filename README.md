@@ -58,45 +58,19 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-
-
-
-
-
-
-
-
-
-
-
-## Usage
-Afer cloning the repository and changing to that directory run the following commands to launch the app
-
-```bash
-gradle build
-gradle run
-```
-In the terminal locate the url showing your spark server
-You can navigate to [http://localhost:4567/](http://localhost:4567/) as it works with most spark appications
-You can the add the animal which thereafter you can add to endangered animals
- 
-## Testing using postmang
-### Posting department
-![Posting](src/main/resources/public/images/postdepartments.png)
-### Getting departments
-![Get department](src/main/resources/public/images/getdepartments.png)
-## Technologies used
+## Technologies
 In the following app we used the following technologies
-* Java
-* Spark
-* REST API
+* Angular
+* Typscript
+* Javascript
 
 ## Contributions
 You can contribute to this project by making a pull request
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## About me
 `Nathan Kimutai` Java and Python programmer
