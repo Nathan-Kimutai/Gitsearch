@@ -9,10 +9,9 @@ It uses HttpService as it service and the github api
 
 
 ## Getting started
-You can use the editor of your choice but for this case I used [Visual Studio Code](https://www.jetbrains.com/idea/download/)
+You can use the editor of your choice but for this case I used [Visual Studio Code](https://code.visualstudio.com/download)
 
-If you don't have java already installed
-Install JDK(Java Development Kit) through the following command:
+If you don't have npm installed yet you can install by doing the following
 ```bash
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
