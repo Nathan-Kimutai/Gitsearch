@@ -34,6 +34,11 @@ ng --version
 ```
 
 ## Development server
+Clone the following repository 
+`https://github.com/Nathan-Kimutai/Gitsearch.git`
+```bash
+cd <cloned directory>
+```
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
