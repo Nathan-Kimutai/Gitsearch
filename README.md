@@ -1,6 +1,6 @@
 # Gitsearch
 
-GitSearch is an app that searches for peoples usernames and repositories on github
+GitSearch is an app that searches for people's usernames and repositories on github
 It uses HttpService as it service and the github api
 
 ## Author
